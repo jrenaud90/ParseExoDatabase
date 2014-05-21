@@ -89,7 +89,34 @@ def utc2jd(utc):
     jd = j + (hr + (min + (sec/60.0))/60.0)/24.0
 
     return jd
+def linkfinder(path):
+    with open(path,'r') as htmldata:
+        log.write('6-Opened htmldata.tmp in readonly mode\n')
 
+# Find links in the file
+        log.write('7-Looking for links...\n')
+        path = excFilePath.replace("Parse.py", "") + 'links.tmp'
+        with open(path,'w') as filetmp:
+            with deleteContent(filetmp) as linkfile:
+                x = htmldata.readlines()
+                a = 0
+                for i in x:
+                    if a == 1:
+                        log.write('\t Link Found!\n')
+                        indx = i.index('=') +2
+                        link = i[indx:]
+                        #Do an if command here to see if the link is of interest.
+                        linkfile.write(link)
+                        log.write('\t Link Recorded!\n')
+                    if i.find('::TAG: a') == 0:
+                        a = 1
+                    else:
+                        a = 0
+        #if '::TAG: a' in line:
+            #print htmldata[]
+            pass
+        pass
+    pass
 class DownloadHTMLtext:
     def __init__(self,html,log):
         self.url = html
@@ -175,34 +202,7 @@ with open(path,'w') as filetmp:
     pass
 log.write('5-Finished parsing the html document\n')
 path = excFilePath.replace("Parse.py", "") + 'htmldata.tmp'
-with open(path,'r') as htmldata:
-    log.write('6-Opened htmldata.tmp in readonly mode\n')
-
-# Find links in the file
-    log.write('7-Looking for links...\n')
-    path = excFilePath.replace("Parse.py", "") + 'links.tmp'
-    with open(path,'w') as filetmp:
-        with deleteContent(filetmp) as linkfile:
-            x = htmldata.readlines()
-            a = 0
-            for i in x:
-                if a == 1:
-                    log.write('\t Link Found!\n')
-                    indx = i.index('=') +2
-                    link = i[indx:]
-                    #Do an if command here to see if the link is of interest.
-                    linkfile.write(link)
-                    log.write('\t Link Recorded!\n')
-                if i.find('::TAG: a') == 0:
-                    a = 1
-                else:
-                    a = 0
-        #if '::TAG: a' in line:
-            #print htmldata[]
-            pass
-        pass
-    pass
-
+linkfinder(path)
 
 
 #Debuging
