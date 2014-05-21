@@ -16,6 +16,8 @@ excFilePath = inspect.getfile(inspect.currentframe()) # script filename (usually
 path = excFilePath + '/Output.log'
 filetmp = open(path,'w')
 log = deleteContent(filetmp)
+LogStartStr = 'Exoplanet HTML Database Parse Ver 0\nScript by Joe Renaud\nLog file created on: ' + now + '\n\n' + '1-Begin...\n'
+log.write(LogStartStr)
 # create a subclass and override the handler methods
 class MyHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
