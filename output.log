@@ -1,8 +1,34 @@
 Exoplanet HTML Database Parse Ver 0
 Script by Joe Renaud
-Log file created on: 05/21/14 00:14:12
+Log file created on: 05/21/14 00:43:20
 
 1-Begin...
 2-HTML URL to open: http://tedxgeorgemasonu.com/thankyou
 3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
-4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmpas var: html1
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmpas var: html1	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmlatt.tmp
+	-HTML Data info Written to htmldata.tmp
+5-Finished parsing the html document
+6-Opened htmldata.tmp in readonly mode
+7-Looking for links...
+	 Link Found!
+	 Link Recorded!
