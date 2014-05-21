@@ -1,1 +1,757 @@
 Date (UTC): 2014.0 5.0 21.0 :: 16:29:41
+Exoplanet 1: 
+	URL: redict_detail.php?STARNAME=WASP-5&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-5
+
+	Constellation: DATA: Phe
+
+	-TRANSIT START-
+		UTC: DATA: 4:13
+
+		POS: DATA: 53°,NE
+
+		J-Time: DATA: 56798.6758
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 5:24
+
+		POS: DATA: 54°,N
+
+		J-Time: DATA: 56798.7251
+
+	-TRANSIT END-
+		UTC: DATA: 6:35
+
+		POS: DATA: 53°,N
+
+		J-Time: DATA: 56798.7745
+
+	D: DATA: 142.128
+
+	V: DATA: 12.3
+
+	DEP: DATA: 0.0137
+
+		ttime: DATA: 54373.99598+1.6284279*E
+
+	RA: DATA: RA: 23 57 23.74
+
+	DE: DATA: DE: -41 16 37.5
+
+Exoplanet End
+
+Exoplanet 2: 
+	URL: redict_detail.php?STARNAME=WASP-64&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-64
+
+	Constellation: DATA: CMa
+
+	-TRANSIT START-
+		UTC: DATA: 4:57
+
+		POS: DATA: 27°,SE
+
+		J-Time: DATA: 56798.7063
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 6:08
+
+		POS: DATA: 30°,E
+
+		J-Time: DATA: 56798.7563
+
+	-TRANSIT END-
+		UTC: DATA: 7:21
+
+		POS: DATA: 34°,E
+
+		J-Time: DATA: 56798.8062
+
+	D: DATA: 143.99
+
+	V: DATA: 12.29
+
+	DEP: DATA: 0.0164
+
+		ttime: DATA: 55582.60169+1.5732918*E
+
+	RA: DATA: RA: 06 44 27.61
+
+	DE: DATA: DE: -32 51 30.25
+
+Exoplanet End
+
+Exoplanet 3: 
+	URL: redict_detail.php?STARNAME=HATS-1&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: HATS-1
+
+	Constellation: DATA: Cra
+
+	-TRANSIT START-
+		UTC: DATA: 12:52
+
+		POS: DATA: 28°,E
+
+		J-Time: DATA: 56799.0363
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 14:04
+
+		POS: DATA: 32°,NE
+
+		J-Time: DATA: 56799.0867
+
+	-TRANSIT END-
+		UTC: DATA: 15:17
+
+		POS: DATA: 34°,NE
+
+		J-Time: DATA: 56799.1370
+
+	D: DATA: 145
+
+	V: DATA: 12.053
+
+	DEP: DATA: 0.0162
+
+		ttime: DATA: 55241.28722+3.446459*E
+
+	RA: DATA: RA: 11 42 06.12
+
+	DE: DATA: DE: -23 21 17.4
+
+Exoplanet End
+
+Exoplanet 4: 
+	URL: redict_detail.php?STARNAME=WASP-29&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-29
+
+	Constellation: DATA: Phe
+
+	-TRANSIT START-
+		UTC: DATA: 13:14
+
+		POS: DATA: 32°,SW
+
+		J-Time: DATA: 56799.0518
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 14:33
+
+		POS: DATA: 29°,SW
+
+		J-Time: DATA: 56799.1063
+
+	-TRANSIT END-
+		UTC: DATA: 15:51
+
+		POS: DATA: 27°,S
+
+		J-Time: DATA: 56799.1608
+
+	D: DATA: 157
+
+	V: DATA: 11.3
+
+	DEP: DATA: 0.0108
+
+		ttime: DATA: 54249.3305+3.922732*E
+
+	RA: DATA: RA: 23 51 31.08
+
+	DE: DATA: DE: -39 54 24.2
+
+Exoplanet End
+
+Exoplanet 5: 
+	URL: redict_detail.php?STARNAME=OGLE-TR-56&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: OGLE-TR-56
+
+	Constellation: DATA: Sgr
+
+	-TRANSIT START-
+		UTC: DATA: 14:08
+
+		POS: DATA: 19°,SE
+
+		J-Time: DATA: 56799.0895
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 15:02
+
+		POS: DATA: 21°,SE
+
+		J-Time: DATA: 56799.1271
+
+	-TRANSIT END-
+		UTC: DATA: 15:57
+
+		POS: DATA: 24°,SE
+
+		J-Time: DATA: 56799.1646
+
+	D: DATA: 108.2
+
+	V: DATA: 16.6
+
+	DEP: DATA: 0.0171
+
+		ttime: DATA: 53936.598+1.211909*E
+
+	RA: DATA: RA: 17 56 35.51
+
+	DE: DATA: DE: -29 32 21.2
+
+Exoplanet End
+
+Exoplanet 6: 
+	URL: redict_detail.php?STARNAME=LUPUS-TR3&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: LUPUS-TR3
+
+	Constellation: DATA: Lup
+
+	-TRANSIT START-
+		UTC: DATA: 13:59
+
+		POS: DATA: 37°,SE
+
+		J-Time: DATA: 56799.0829
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 15:14
+
+		POS: DATA: 41°,E
+
+		J-Time: DATA: 56799.1350
+
+	-TRANSIT END-
+		UTC: DATA: 16:29
+
+		POS: DATA: 45°,E
+
+		J-Time: DATA: 56799.1871
+
+	D: DATA: 150
+
+	V: DATA: 17
+
+	DEP: DATA: 0.0148
+
+		ttime: DATA: 53887.0818+3.91405*E
+
+	RA: DATA: RA: 15 30 18.7
+
+	DE: DATA: DE: -42 58 41.5
+
+Exoplanet End
+
+Exoplanet 7: 
+	URL: redict_detail.php?STARNAME=WASP-18&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-18
+
+	Constellation: DATA: Phe
+
+	-TRANSIT START-
+		UTC: DATA: 15:14
+
+		POS: DATA: 37°,SW
+
+		J-Time: DATA: 56799.1353
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 16:19
+
+		POS: DATA: 35°,SW
+
+		J-Time: DATA: 56799.1799
+
+	-TRANSIT END-
+		UTC: DATA: 17:23
+
+		POS: DATA: 33°,S
+
+		J-Time: DATA: 56799.2246
+
+	D: DATA: 128.6
+
+	V: DATA: 9.29
+
+	DEP: DATA: 0.0108
+
+		ttime: DATA: 54221.48163+0.94145299*E
+
+	RA: DATA: RA: 01 37 24.95
+
+	DE: DATA: DE: -45 40 40.8
+
+Exoplanet End
+
+Exoplanet 8: 
+	URL: redict_detail.php?STARNAME=WASP-7&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-7
+
+	Constellation: DATA: Mic
+
+	-TRANSIT START-
+		UTC: DATA: 16:29
+
+		POS: DATA: 29°,SE
+
+		J-Time: DATA: 56799.1875
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 18:16
+
+		POS: DATA: 33°,SE
+
+		J-Time: DATA: 56799.2618
+
+	-TRANSIT END-
+		UTC: DATA: 20:03
+
+		POS: DATA: 38°,E
+
+		J-Time: DATA: 56799.3361
+
+	D: DATA: 214
+
+	V: DATA: 9.5
+
+	DEP: DATA: 0.0108
+
+		ttime: DATA: 53985.0149+4.95466*E
+
+	RA: DATA: RA: 20 44 10.13
+
+	DE: DATA: DE: -39 13 29.7
+
+Exoplanet End
+
+Exoplanet 9: 
+	URL: redict_detail.php?STARNAME=WASP-96&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-96
+
+	Constellation: DATA: Gru
+
+	-TRANSIT START-
+		UTC: DATA: 18:28
+
+		POS: DATA: 35°,S
+
+		J-Time: DATA: 56799.2701
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 19:41
+
+		POS: DATA: 36°,SE
+
+		J-Time: DATA: 56799.3206
+
+	-TRANSIT END-
+		UTC: DATA: 20:54
+
+		POS: DATA: 39°,SE
+
+		J-Time: DATA: 56799.3712
+
+	D: DATA: 145.58
+
+	V: DATA: 12.2
+
+	DEP: DATA: 0.0149
+
+		ttime: DATA: 56258.0621+3.4252602*E + 2.7e-06*E
+
+	RA: DATA: RA: 00 04 11.14
+
+	DE: DATA: DE: -47 21 38.2
+
+Exoplanet End
+
+Exoplanet 10: 
+	URL: redict_detail.php?STARNAME=OGLE-TR-L9&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: OGLE-TR-L9
+
+	Constellation: DATA: Car
+
+	-TRANSIT START-
+		UTC: DATA: 19:47
+
+		POS: DATA: 68°,W
+
+		J-Time: DATA: 56799.3244
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 21:01
+
+		POS: DATA: 64°,W
+
+		J-Time: DATA: 56799.3758
+
+	-TRANSIT END-
+		UTC: DATA: 22:15
+
+		POS: DATA: 60°,W
+
+		J-Time: DATA: 56799.4272
+
+	D: DATA: 148
+
+	V: DATA: 14
+
+	DEP: DATA: 0.0119
+
+		ttime: DATA: 54492.80008+2.48553417*E
+
+	RA: DATA: RA: 11 07 55.29
+
+	DE: DATA: DE: -61 08 46.3
+
+Exoplanet End
+
+Exoplanet 11: 
+	URL: redict_detail.php?STARNAME=OGLE-TR-113&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: OGLE-TR-113
+
+	Constellation: DATA: Car
+
+	-TRANSIT START-
+		UTC: DATA: 21:08
+
+		POS: DATA: 62°,W
+
+		J-Time: DATA: 56799.3810
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 22:04
+
+		POS: DATA: 59°,W
+
+		J-Time: DATA: 56799.4198
+
+	-TRANSIT END-
+		UTC: DATA: 23:00
+
+		POS: DATA: 56°,SW
+
+		J-Time: DATA: 56799.4587
+
+	D: DATA: 112
+
+	V: DATA: 14.42
+
+	DEP: DATA: 0.0245
+
+		ttime: DATA: 52325.79823+1.4324757*E
+
+	RA: DATA: RA: 10 52 24
+
+	DE: DATA: DE: -61 26 48
+
+Exoplanet End
+
+Exoplanet 12: 
+	URL: redict_detail.php?STARNAME=WASP-66&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-66
+
+	Constellation: DATA: Ant
+
+	-TRANSIT START-
+		UTC: DATA: 19:57
+
+		POS: DATA: 39°,W
+
+		J-Time: DATA: 56799.3314
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 22:12
+
+		POS: DATA: 32°,W
+
+		J-Time: DATA: 56799.4252
+
+	-TRANSIT END-
+		UTC: DATA: 0:27
+
+		POS: DATA: 25°,SW
+
+		J-Time: DATA: 56799.5190
+
+	D: DATA: 270.14
+
+	V: DATA: 11.6
+
+	DEP: DATA: 0.0072
+
+		ttime: DATA: 55929.09615+4.086052*E
+
+	RA: DATA: RA: 10 32 54.00
+
+	DE: DATA: DE: -34 59 23.3
+
+Exoplanet End
+
+Exoplanet 13: 
+	URL: redict_detail.php?STARNAME=WASP-41&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-41
+
+	Constellation: DATA: Cen
+
+	-TRANSIT START-
+		UTC: DATA: 21:36
+
+		POS: DATA: 37°,NW
+
+		J-Time: DATA: 56799.4004
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 22:53
+
+		POS: DATA: 33°,W
+
+		J-Time: DATA: 56799.4539
+
+	-TRANSIT END-
+		UTC: DATA: 0:10
+
+		POS: DATA: 29°,W
+
+		J-Time: DATA: 56799.5074
+
+	D: DATA: 154.08
+
+	V: DATA: 11.6
+
+	DEP: DATA: 0.0215
+
+		ttime: DATA: 55343.462+3.052394*E
+
+	RA: DATA: RA: 12 42 28.49
+
+	DE: DATA: DE: -30 38 22.8
+
+Exoplanet End
+
+Exoplanet 14: 
+	URL: redict_detail.php?STARNAME=OGLE-TR-132&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: OGLE-TR-132
+
+	Constellation: DATA: Car
+
+	-TRANSIT START-
+		UTC: DATA: 21:57
+
+		POS: DATA: 59°,W
+
+		J-Time: DATA: 56799.4149
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 23:10
+
+		POS: DATA: 55°,SW
+
+		J-Time: DATA: 56799.4656
+
+	-TRANSIT END-
+		UTC: DATA: 0:23
+
+		POS: DATA: 52°,SW
+
+		J-Time: DATA: 56799.5162
+
+	D: DATA: 146
+
+	V: DATA: 15.72
+
+	DEP: DATA: 0.0087
+
+		ttime: DATA: 53142.5912+1.689868*E
+
+	RA: DATA: RA: 10 50 34.72
+
+	DE: DATA: DE: -61 57 25.9
+
+Exoplanet End
+
+Exoplanet 15: 
+	URL: redict_detail.php?STARNAME=WASP-100&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-100
+
+	Constellation: DATA: Ret
+
+	-TRANSIT START-
+		UTC: DATA: 21:27
+
+		POS: DATA: 52°,S
+
+		J-Time: DATA: 56799.3939
+
+	-TRANSIT MID-
+		UTC: DATA: 21.05. 23:22
+
+		POS: DATA: 52°,S
+
+		J-Time: DATA: 56799.4739
+
+	-TRANSIT END-
+		UTC: DATA: 1:17
+
+		POS: DATA: 55°,SE
+
+		J-Time: DATA: 56799.5539
+
+	D: DATA: 230.4
+
+	V: DATA: 10.8
+
+	DEP: DATA: 0.0082
+
+		ttime: DATA: 56272.3395+2.849375*E
+
+	RA: DATA: RA: 04 35 50.32
+
+	DE: DATA: DE: -64 01 37.3
+
+Exoplanet End
+
+Exoplanet 16: 
+	URL: redict_detail.php?STARNAME=WASP-19&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-19
+
+	Constellation: DATA: Vel
+
+	-TRANSIT START-
+		UTC: DATA: 23:14
+
+		POS: DATA: 38°,SW
+
+		J-Time: DATA: 56799.4683
+
+	-TRANSIT MID-
+		UTC: DATA: 22.05. 0:00
+
+		POS: DATA: 36°,SW
+
+		J-Time: DATA: 56799.5004
+
+	-TRANSIT END-
+		UTC: DATA: 0:46
+
+		POS: DATA: 34°,SW
+
+		J-Time: DATA: 56799.5325
+
+	D: DATA: 92.4
+
+	V: DATA: 12.3
+
+	DEP: DATA: 0.0215
+
+		ttime: DATA: 54775.3372+0.7888399*E
+
+	RA: DATA: RA: 09 53 40.077
+
+	DE: DATA: DE: -45 39 33.06
+
+Exoplanet End
+
+Exoplanet 17: 
+	URL: redict_detail.php?STARNAME=WASP-62&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-62
+
+	Constellation: DATA: Dor
+
+	-TRANSIT START-
+		UTC: DATA: 23:17
+
+		POS: DATA: 50°,S
+
+		J-Time: DATA: 56799.4705
+
+	-TRANSIT MID-
+		UTC: DATA: 22.05. 1:11
+
+		POS: DATA: 51°,S
+
+		J-Time: DATA: 56799.5499
+
+	-TRANSIT END-
+		UTC: DATA: 3:06
+
+		POS: DATA: 54°,SE
+
+		J-Time: DATA: 56799.6293
+
+	D: DATA: 228.67
+
+	V: DATA: 10.3
+
+	DEP: DATA: 0.0133
+
+		ttime: DATA: 55855.39195+4.411953*E
+
+	RA: DATA: RA: 05 48 33.59
+
+	DE: DATA: DE: -63 59 18.3
+
+Exoplanet End
+
+Exoplanet 18: 
+	URL: redict_detail.php?STARNAME=WASP-26&PLANET=b&delka=38.8526&sirka=-77.3044
+
+	Name: DATA: WASP-26
+
+	Constellation: DATA: Cet
+
+	-TRANSIT START-
+		UTC: DATA: 2:26
+
+		POS: DATA: 23°,NE
+
+		J-Time: DATA: 56799.6017
+
+	-TRANSIT MID-
+		UTC: DATA: 22.05. 3:37
+
+		POS: DATA: 26°,NE
+
+		J-Time: DATA: 56799.6507
+
+	-TRANSIT END-
+		UTC: DATA: 4:47
+
+		POS: DATA: 28°,N
+
+		J-Time: DATA: 56799.6997
+
+	D: DATA: 141
+
+	V: DATA: 11.3
+
+	DEP: DATA: 0.0108
+
+		ttime: DATA: 55123.6379+2.7566*E
+
+	RA: DATA: RA: 00 18 24.7
+
+	DE: DATA: DE: -15 16 02.3
+
+Exoplanet End
+

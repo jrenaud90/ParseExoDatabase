@@ -122,17 +122,17 @@ def ExoplanetHolder(htmldatapath,date):
         url = None;name = None;const = None;b_UT = None;b_pos=None;b_jtime=None
         m_UT = None;m_pos=None;m_jtime=None;D=None;V=None;DEP=None
         e_UT = None;e_pos=None;e_jtime=None;ttime=None;RA=None;DE=None
-        
+        testword = 'predict_detail'
         with open(path2,'w') as filetmp2:
             with filetmp2 as exocsv:
                 with open(path,'w') as filetmp:
                     with deleteContent(filetmp) as exo:
-                        exo.write('Date (UTC): ' + date)
+                        exo.write('Date (UTC): ' + date + '\n')
                         exocsv.write(date + ',')
                         x = htmldata.readlines()
                         cnt = 1
                         u = 0;c = 0;d = 0;f = 0;e = 0;k = 0;l=0;m=0;n=0;p=0;o=0;r=0;t=0;v=0
-                        s = 0; w=0;ww=0
+                        s = 0; w=0;ww=0;uu=0
                         for i in x:
                             if ww == 1:
                                 if i.find('::DATA:')==0:
@@ -238,12 +238,19 @@ def ExoplanetHolder(htmldatapath,date):
                                 u = 0
                                 #Record Name
                                 c = 1
-                            if i.find('::DATA:' )==0:
-                                if i.find('href = predict_detail.php?STARNAME')==0:
+                            if uu == 1:
+                                if testword in i:
                                     indx = i.index('f') +5
                                     url = i[indx:]
                                     u = 1
+                                    print url
+                                    uu = 0
+                                else:
+                                    uu = 0
+                            if i.find('::TAG: a' )==0:
+                                uu = 1
                                     #Record URL and mark next line as name line.
+                            
                             if url:
                                 exo.write('Exoplanet ' + str(cnt) + ': \n')
                                 exo.write('\tURL: ' + url + '\n')
