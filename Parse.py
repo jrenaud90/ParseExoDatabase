@@ -1,7 +1,7 @@
 #Imports
 from HTMLParser import HTMLParser
 from itertools import count
-import time,os,inspect,urllib2
+import time,os,inspect,urllib2,mmap
 
 #Functions
 def deleteContent(pfile): #Delete File Contents
@@ -76,8 +76,35 @@ class MyHTMLParser(HTMLParser):
 # instantiate the parser and fed it some HTML
 parser = MyHTMLParser()
 parser.feed(kstr)
-log.write('5-Finished parsing the html document')
+try:
+    log.write('5-Finished parsing the html document')
+    htmldata.close
+    path = excFilePath.replace("Parse.py", "") + 'htmldata.tmp'
+    htmldata = open(path,'r')
+    log.write('6-Opened htmldata.tmp in readonly mode')
+    htmldatasmall = mmap.mmap(htmldata.fileno(),0, access=mmap.ACCESS_READ)
+    log.write('7-Moved htmldata.tmp into smaller access space using mmap')
+    path = None
 
+# Find links in the file
+    path = excFilePath.replace("Parse.py", "") + 'links.tmp'
+    filetmp = open(path,'w')
+    linkfile = deleteContent(filetmp)
+    path = None
+    filetmp = None
+
+    if htmldatasmall.find('::TAG: a') > -1:
+        x = htmldata.readlines()
+        for i in x:
+            print x[i]
+        #if '::TAG: a' in line:
+            #print htmldata[]
+        else:
+            linkfile.write('NO LINKS FOUND')
+            log.write('9-No links were found in html data')
+finally:
+    htmldatasmall.close
+    htmldata.close
 
 #Debuging
 #os.remove(excFilePath.replace("Parse.py", "") + 'html1.tmp') #Uncomment during debug.
