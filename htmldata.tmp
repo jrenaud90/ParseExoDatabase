@@ -1,3 +1,45 @@
--Data number :
-﻿-Data number :
+::DATA: ﻿
+Item :
+::TAG: html
+	xmlns = http://www.w3.org/1999/xhtml
+Item :
+::TAG: head
+Item :
+::TAG: meta
+	http-equiv = Content-Type
+	content = text/html; charset=utf-8
+Item :
+::TAG: title
+::DATA: Thank you!
+Item :
+::TAG: style
+	type = text/css
+	media = screen
+::DATA: 
+p{color:#666666;font: Helvetica, Arial, sans-serif;}h1{font: 16pt Helvetica, Arial, sans-serif;color: #FF2B06;}
+a{font: 16pt Helvetica, Arial, sans-serif;color: #FF2B06;text-decoration:underline;}
 
+Item :
+::TAG: body
+Item :
+::TAG: img
+	src = img/headerlogo.png
+	alt = TEDxGeorgeMasonU
+Item :
+::TAG: h1
+::DATA: Thank you!
+Item :
+::TAG: p
+::DATA:    Thank you for sending us a comment! If you included your email address than you will be added to the TEDxGeorgeMasonU newsletter. We will periodically send out information on the upcoming event being held on April 6th, 2013 at George Mason University's Fairfax Campus. Your email address will not be sold, shared, or solicited. Only information regarding the said event will be sent to it, and you will always have the option to un-subscribe using a link provided within the email. If you did not intend to subscribe then you may submit another commit on the site with the text 
+Item :
+::TAG: b
+::DATA: "Please unsubscribe 
+Item :
+::TAG: i
+::DATA: YourEmailAddress@site.com
+::DATA:  from the newsletter."
+::DATA:  We will be happy to remove you!
+Item :
+::TAG: a
+	href = index.php
+::DATA: Back to TEDxGeorgeMasonU Homepage

@@ -48,29 +48,24 @@ filetmp = open(path,'w')
 htmldata = deleteContent(filetmp)
 path = None
 filetmp = None
-path = excFilePath.replace("Parse.py", "") + 'htmlatt.tmp'
-filetmp = open(path,'w')
-htmlatt = deleteContent(filetmp)
-path = None
-filetmp = None
-#count = 5; #Log file counter
 
 #create a subclass and override the handler methods
 class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
-        htmldata.write('-Data number :\n')
-        htmldata.write(data)
-        log.write('-HTML Data info Written to htmldata.tmp\n')
+        if len(data) > 1:
+            htmldata.write('::DATA: ' + data + '\n')
+            log.write('\t-HTML Data info Written to htmldata.tmp\n')
     def handle_starttag(self, tag, attrs):
-        htmlatt.write('Attr number :\n')
-        htmlatt.write(tag)
+        htmldata.write('Item :\n')
+        htmldata.write('::TAG: ' + tag + '\n')
         for attr in attrs:
             if len(attr)<2:
-                htmlatt.write('\t' + attr + '\n')
+                htmldata.write('\t' + attr + '\n')
             else:
-                for i in attr:
-                    htmlatt.write('\t' + i + '\n')
-        log.write('-HTML Tag info Written to htmlatt.tmp\n')
+                st1 = attr[0]
+                st2 = attr[1]
+                htmldata.write('\t' + st1 + ' = ' + st2 + '\n')
+        log.write('\t-HTML Tag info Written to htmlatt.tmp\n')
 #    def handle_starttag(self, tag, attrs):
 #        print "Encountered a start tag:", tag
 #    def handle_endtag(self, tag):
@@ -81,6 +76,9 @@ class MyHTMLParser(HTMLParser):
 # instantiate the parser and fed it some HTML
 parser = MyHTMLParser()
 parser.feed(kstr)
+log.write('5-Finished parsing the html document')
+
+
 #Debuging
 #os.remove(excFilePath.replace("Parse.py", "") + 'html1.tmp') #Uncomment during debug.
 
