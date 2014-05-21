@@ -1,28 +1,5 @@
-Exoplanet Parse Log-File
-Script write-up by Joe Renaud
-Log-Date and Time:05/20/14 15:31:35
+Exoplanet HTML Database Parse Ver 0
+Script by Joe Renaud
+Log file created on: 05/20/14 21:49:44
 
--1-
-Encountered a start tag:html
--1-
-Encountered a start tag:head
--1-
-Encountered a start tag:title
--3-
-Encountered some data  :Test
--2-
-Encountered an end tag :title
--2-
-Encountered an end tag :head
--1-
-Encountered a start tag:body
--1-
-Encountered a start tag:h1
--3-
-Encountered some data  :Parse me!
--2-
-Encountered an end tag :h1
--2-
-Encountered an end tag :body
--2-
-Encountered an end tag :html
+1-Begin...
