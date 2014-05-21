@@ -1,7 +1,5 @@
 #Imports
 from HTMLParser import HTMLParser
-from itertools import count
-from datetime import date
 import os,inspect,urllib2,types,datetime
 
 def date_to_julian_day(my_date):
@@ -167,18 +165,27 @@ class MyHTMLParser(HTMLParser):
 #        print "Encountered some data  :", data
 
 
-#Global Vars
- #Observatory information
-Long = 38.8526 #Fairfax, Degrees
-Lat = -77.3044 #Fairfax, Degrees
-
- #UTC Datetime
-now = UTC2str(CurrentUTC())
-excFilePath = inspect.getfile(inspect.currentframe()) #Finds current file path including file name.
- 
- #Find Julian Date
-jdate =  utc2jd(CurrentUTC())
-
+#Global Vars Function
+def globvars():
+    d1 = input('Do you want to use Default Observatory location (1=yes,0=no)? ')
+    if d1 == 0:
+        Long = input('Observatory Longitude (0 to 360, degrees): ')
+        Lat = input('Observatory Latitude (90 to 0 to -90, degrees): ')
+    else:
+        #Observatory information
+        Long = 38.8526 #Fairfax, Degrees
+        Lat = -77.3044 #Fairfax, Degrees
+    d2 = input('Do you want to use today\'s date as starting point (1=yes,0=no)? ')
+    if d2 == 0:
+        jdate = input('Starting Date (Julian, no time): ')
+    else:
+        #Find Julian Date
+        jdate =  utc2jd(CurrentUTC())
+    now = UTC2str(CurrentUTC())
+    excFilePath = inspect.getfile(inspect.currentframe()) #Finds current file path including file name.
+    return now, excFilePath, Long, Lat, jdate
+    
+globvars()
 #Open and use log file
 path = excFilePath.replace("Parse.py", "") + 'Output.log' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
 filetmp = open(path,'w')
