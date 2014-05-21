@@ -1,5 +1,6 @@
 #Imports
 from HTMLParser import HTMLParser
+from itertools import count
 import time,os,inspect,urllib2
 
 #Functions
@@ -20,6 +21,7 @@ LogStartStr = 'Exoplanet HTML Database Parse Ver 0\nScript by Joe Renaud\nLog fi
 log.write(LogStartStr)
 filetmp = None
 path = None
+
 #Open HTML in question
 HtmlURL = 'http://tedxgeorgemasonu.com/thankyou'
 HtmlData = urllib2.urlopen(HtmlURL)
@@ -30,11 +32,45 @@ html1 = deleteContent(filetmp)
 for line in HtmlData:
     html1.write(line)
 log.write('3-Wrote HTML to : ' + path + '\n')
+html1 = None
+html1 = open(path,'r')
+log.write('4-Reading ' + path + 'as var: html1')
 path = None
 filetmp = None
+kstr = ''
+for line in html1:
+    kstr = kstr + line #Make large string of the html file
+html1.close
 
-# create a subclass and override the handler methods
-#class MyHTMLParser(HTMLParser):
+#Make temp files for storing html information
+path = excFilePath.replace("Parse.py", "") + 'htmldata.tmp'
+filetmp = open(path,'w')
+htmldata = deleteContent(filetmp)
+path = None
+filetmp = None
+path = excFilePath.replace("Parse.py", "") + 'htmlatt.tmp'
+filetmp = open(path,'w')
+htmlatt = deleteContent(filetmp)
+path = None
+filetmp = None
+#count = 5; #Log file counter
+
+#create a subclass and override the handler methods
+class MyHTMLParser(HTMLParser):
+    def handle_data(self, data):
+        htmldata.write('-Data number :\n')
+        htmldata.write(data)
+        log.write('-HTML Data info Written to htmldata.tmp\n')
+    def handle_starttag(self, tag, attrs):
+        htmlatt.write('Attr number :\n')
+        htmlatt.write(tag)
+        for attr in attrs:
+            if len(attr)<2:
+                htmlatt.write('\t' + attr + '\n')
+            else:
+                for i in attr:
+                    htmlatt.write('\t' + i + '\n')
+        log.write('-HTML Tag info Written to htmlatt.tmp\n')
 #    def handle_starttag(self, tag, attrs):
 #        print "Encountered a start tag:", tag
 #    def handle_endtag(self, tag):
@@ -43,6 +79,10 @@ filetmp = None
 #        print "Encountered some data  :", data
 
 # instantiate the parser and fed it some HTML
-#parser = MyHTMLParser()
-#parser.feed('<html><head><title>Test</title></head>'
-#            '<body><h1>Parse me!</h1></body></html>')
+parser = MyHTMLParser()
+parser.feed(kstr)
+#Debuging
+#os.remove(excFilePath.replace("Parse.py", "") + 'html1.tmp') #Uncomment during debug.
+
+#Close open files.
+log.close

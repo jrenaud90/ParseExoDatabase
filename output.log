@@ -1,7 +1,9 @@
 Exoplanet HTML Database Parse Ver 0
 Script by Joe Renaud
-Log file created on: 05/20/14 22:22:57
+Log file created on: 05/20/14 23:17:16
 
 1-Begin...
 2-HTML URL to open: http://tedxgeorgemasonu.com/thankyou
 3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmpas var: html1-HTML Data info Written to htmldata.tmp
+-HTML Data info Written to htmldata.tmp
