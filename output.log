@@ -1,34 +1,2384 @@
 Exoplanet HTML Database Parse Ver 0
 Script by Joe Renaud
-Log file created on: 05/21/14 00:43:20
+Log file created on (UTC): 2014.0 5.0 21.0 :: 16:26:4
 
 1-Begin...
-2-HTML URL to open: http://tedxgeorgemasonu.com/thankyou
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456799.18477&delka=38.8526&sirka=-77.3044
 3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
-4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmpas var: html1	-HTML Data info Written to htmldata.tmp
-	-HTML Tag info Written to htmlatt.tmp
-	-HTML Tag info Written to htmlatt.tmp
-	-HTML Tag info Written to htmlatt.tmp
-	-HTML Tag info Written to htmlatt.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+3-Wrote HTML to : C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmp
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/html1.tmpas var: html1	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
 	-HTML Data info Written to htmldata.tmp
-	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
 	-HTML Data info Written to htmldata.tmp
-	-HTML Tag info Written to htmlatt.tmp
-	-HTML Tag info Written to htmlatt.tmp
-	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmldata.tmp
 	-HTML Data info Written to htmldata.tmp
-	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmldata.tmp
 	-HTML Data info Written to htmldata.tmp
-	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
 	-HTML Data info Written to htmldata.tmp
-	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
 	-HTML Data info Written to htmldata.tmp
 	-HTML Data info Written to htmldata.tmp
 	-HTML Data info Written to htmldata.tmp
-	-HTML Tag info Written to htmlatt.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
 	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Data info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
+	-HTML Tag info Written to htmldata.tmp
 5-Finished parsing the html document
 6-Opened htmldata.tmp in readonly mode
 7-Looking for links...
 	 Link Found!
 	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
+	 Link Recorded!
+	 Link Found!
