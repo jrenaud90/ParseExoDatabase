@@ -115,63 +115,218 @@ def linkfinder(path):
             pass
         pass
     pass
-def ExoplanetHolder(htmldata):
-    path = excFilePath.replace("Parse.py", "") + 'TMP/exoplanets.tmp' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
-    path2 = excFilePath.replace("Parse.py", "") + 'Exoplanets.csv' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
-    with open(path2,'w') as filetmp2:
-        with deleteContent(filetmp2) as exocsv:
-            with open(path,'w') as filetmp:
-                with deleteContent(filetmp) as exo:
-                    x = htmldata.readlines()
-                    cnt = 1
-                    u = 0
-                    c = 0
-                    d = 0
-                    for i in x:
-                        if d == 1:
-                            if i.find('::DATA:'):
+def ExoplanetHolder(htmldatapath,date):
+    with open(htmldatapath,'r') as htmldata:
+        path = excFilePath.replace("Parse.py", "") + 'TMP/exoplanets.tmp' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
+        path2 = excFilePath.replace("Parse.py", "") + 'Exoplanets.csv' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
+        url = None;name = None;const = None;b_UT = None;b_pos=None;b_jtime=None
+        m_UT = None;m_pos=None;m_jtime=None;D=None;V=None;DEP=None
+        e_UT = None;e_pos=None;e_jtime=None;ttime=None;RA=None;DE=None
+        
+        with open(path2,'w') as filetmp2:
+            with filetmp2 as exocsv:
+                with open(path,'w') as filetmp:
+                    with deleteContent(filetmp) as exo:
+                        exo.write('Date (UTC): ' + date)
+                        exocsv.write(date + ',')
+                        x = htmldata.readlines()
+                        cnt = 1
+                        u = 0;c = 0;d = 0;f = 0;e = 0;k = 0;l=0;m=0;n=0;p=0;o=0;r=0;t=0;v=0
+                        s = 0; w=0;ww=0
+                        for i in x:
+                            if ww == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    DE = i[indx:]
+                                    ww = 0
+                            if w == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    RA = i[indx:]
+                                    w = 0
+                                    ww = 1
+                            if s == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    ttime = i[indx:]
+                                    s = 0
+                                    w = 1
+                            if v == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    DEP = i[indx:]
+                                    v = 0
+                                    s = 1
+                            if t == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    V = i[indx:]
+                                    t = 0
+                                    v = 1
+                            if r == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    D = i[indx:]
+                                    r = 0
+                                    t = 1
+                            if o == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    e_jtime = i[indx:]
+                                    o = 0
+                                    r = 1
+                            if p == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    e_pos = i[indx:]
+                                    p = 0
+                                    o = 1
+                            if n == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    e_UT = i[indx:]
+                                    n = 0
+                                    p = 1
+                            if m == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    m_jtime = i[indx:]
+                                    m = 0
+                                    n = 1
+                            if l == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    m_pos = i[indx:]
+                                    l = 0
+                                    m = 1
+                            if k == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    m_UT = i[indx:]
+                                    l = 1
+                                    k = 0
+                            if f == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') + 2
+                                    b_jtime = i[indx:]
+                                    f = 0
+                                    k = 1
+                            if e == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') +2
+                                    b_pos = i[indx:]
+                                    e = 0
+                                    #Find beginning sky position, reset e
+                                    f = 1
+                            if d == 1:
+                                if i.find('::DATA:')==0:
+                                    indx = i.index(':') +2
+                                    b_UT = i[indx:]
+                                    d = 0
+                                    #Find beginning UT time, reset d
+                                    e = 1
+                            if c == 1:
+                                if i.find('::DATA:' )==0:
+                                    indx = i.index(':') +2
+                                    const = i[indx:]
+                                    c=0
+                                    #Find Constilation, reset c
+                                    d=1
+                            if u == 1:
                                 indx = i.index(':') +2
-                                b_UT = i[indx:]
-                                d = 0
-                                #Find beginning UT time, reset d
-                                e = 1
-                        if c == 1:
-                            if i.find('::DATA:' ):
-                                indx = i.index(':') +2
-                                const = i[indx:]
-                                c=0
-                                #Find Constilation, reset c
-                                d=1
-                        if u == 1:
-                            indx = i.index(':') +2
-                            name = i[indx:]
-                            u = 0
-                            #Record Name
-                            c = 1
-                        if i.find('::DATA:' ):
-                            if i.find('href = predict_detail.php?STARNAME' ):
-                                indx = i.index('=') +2
-                                url = i[indx:]
-                                u = 1
-                                #Record URL and mark next line as name line.
-                        if url:
-                            exo.write('Exoplanet ' + str(cnt) + ': \n')
-                            exo.write('\tURL: ' + url + '\n')
-                            exocsv.write(url+',')
-                            url = None
-                        if name:
-                            exo.write('\tName: ' + name + '\n')
-                            exocsv.write(name+',')
-                            name = None
-                        if const:
-                            exo.write('\tConstellation: ' + const + '\n')
-                            exocsv.write(const+',')
-                            const = None
-                            exo.write('\t-TRANSIT START-\n')
-                            
-                
+                                name = i[indx:]
+                                u = 0
+                                #Record Name
+                                c = 1
+                            if i.find('::DATA:' )==0:
+                                if i.find('href = predict_detail.php?STARNAME')==0:
+                                    indx = i.index('f') +5
+                                    url = i[indx:]
+                                    u = 1
+                                    #Record URL and mark next line as name line.
+                            if url:
+                                exo.write('Exoplanet ' + str(cnt) + ': \n')
+                                exo.write('\tURL: ' + url + '\n')
+                                exocsv.write(url+',')
+                                cnt +=1
+                                url = None
+                            if name:
+                                exo.write('\tName: ' + name + '\n')
+                                exocsv.write(name+',')
+                                name = None
+                            if const:
+                                exo.write('\tConstellation: ' + const + '\n')
+                                exocsv.write(const+',')
+                                const = None
+                                exo.write('\t-TRANSIT START-\n')
+                            if b_UT:
+                                exo.write('\t\tUTC: ' + b_UT + '\n')
+                                exocsv.write(b_UT+',')
+                                b_UT = None
+                            if b_pos:
+                                exo.write('\t\tPOS: ' + b_pos + '\n')
+                                exocsv.write(b_pos+',')
+                                b_pos = None
+                            if b_jtime:
+                                exo.write('\t\tJ-Time: ' + b_jtime + '\n')
+                                exocsv.write(b_jtime+',')
+                                b_jtime = None
+                            if m_UT:
+                                exo.write('\t-TRANSIT MID-\n')
+                                exo.write('\t\tUTC: ' + m_UT + '\n')
+                                exocsv.write(m_UT+',')
+                                m_UT = None
+                            if m_pos:
+                                exo.write('\t\tPOS: ' + m_pos + '\n')
+                                exocsv.write(m_pos+',')
+                                m_pos = None
+                            if m_jtime:
+                                exo.write('\t\tJ-Time: ' + m_jtime + '\n')
+                                exocsv.write(m_jtime+',')
+                                m_jtime = None
+                            if e_UT:
+                                exo.write('\t-TRANSIT END-\n')
+                                exo.write('\t\tUTC: ' + e_UT + '\n')
+                                exocsv.write(e_UT+',')
+                                e_UT = None
+                            if e_pos:
+                                exo.write('\t\tPOS: ' + e_pos + '\n')
+                                exocsv.write(e_pos+',')
+                                e_pos = None
+                            if e_jtime:
+                                exo.write('\t\tJ-Time: ' + e_jtime + '\n')
+                                exocsv.write(e_jtime+',')
+                                e_jtime = None
+                            if D:
+                                exo.write('\tD: ' + D + '\n')
+                                exocsv.write(D+',')
+                                D = None
+                            if V:
+                                exo.write('\tV: ' + V + '\n')
+                                exocsv.write(V+',')
+                                V = None
+                            if DEP:
+                                exo.write('\tDEP: ' + DEP + '\n')
+                                exocsv.write(DEP+',')
+                                DEP = None
+                            if ttime:
+                                exo.write('\t\tttime: ' + ttime + '\n')
+                                exocsv.write(ttime+',')
+                                ttime = None
+                            if RA:
+                                exo.write('\tRA: ' + RA + '\n')
+                                exocsv.write(RA+',')
+                                RA = None
+                            if DE:
+                                exo.write('\tDE: ' + DE + '\n')
+                                exocsv.write(DE+'\n')
+                                DE = None
+                                exo.write('Exoplanet End\n\n')
+                        pass
+                    pass
+                pass
+            pass
         pass
-    pass
 class DownloadHTMLtext:
     def __init__(self,html,log):
         self.url = html
@@ -273,9 +428,9 @@ with open(path,'w') as filetmp:
 pass
 log.write('5-Finished parsing the html document\n')
 path = excFilePath.replace("Parse.py", "") + 'TMP/htmldata.tmp'
-linkfinder(path)
+#linkfinder(path)
 #Debuging
 #os.remove(excFilePath.replace("Parse.py", "") + 'html1.tmp') #Uncomment during debug.
 #Close open files.
-
-log.close
+ExoplanetHolder(path,now)
+log.close()
