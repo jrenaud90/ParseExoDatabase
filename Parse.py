@@ -1,6 +1,6 @@
 #Imports
 from HTMLParser import HTMLParser
-import os,inspect,urllib2,types,datetime
+import os,inspect,urllib2,datetime
 
 def date_to_julian_day(my_date):
     """Returns the Julian day number of a date."""
@@ -128,6 +128,7 @@ def ExoplanetHolder(htmldatapath,date):
                 with open(path,'w') as filetmp:
                     with deleteContent(filetmp) as exo:
                         exo.write('Date (UTC): ' + date + '\n')
+                        exo.write('- - - - - - - - - -\n')
                         exocsv.write(date + ',')
                         x = htmldata.readlines()
                         cnt = 1
@@ -136,114 +137,113 @@ def ExoplanetHolder(htmldatapath,date):
                         for i in x:
                             if ww == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    DE = i[indx:]
+                                    indx = i.index(':') + 12
+                                    DE = i[indx:].rstrip('\n')
                                     ww = 0
                             if w == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    RA = i[indx:]
+                                    indx = i.index(':') + 12
+                                    RA = i[indx:].rstrip('\n')
                                     w = 0
                                     ww = 1
                             if s == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    ttime = i[indx:]
+                                    indx = i.index(':') + 8
+                                    ttime = i[indx:].rstrip('\n')
                                     s = 0
                                     w = 1
                             if v == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    DEP = i[indx:]
+                                    indx = i.index(':') + 8
+                                    DEP = i[indx:].rstrip('\n')
                                     v = 0
                                     s = 1
                             if t == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    V = i[indx:]
+                                    indx = i.index(':') + 8
+                                    V = i[indx:].rstrip('\n')
                                     t = 0
                                     v = 1
                             if r == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    D = i[indx:]
+                                    indx = i.index(':') + 8
+                                    D = i[indx:].rstrip('\n')
                                     r = 0
                                     t = 1
                             if o == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    e_jtime = i[indx:]
+                                    indx = i.index(':') + 8
+                                    e_jtime = i[indx:].rstrip('\n')
                                     o = 0
                                     r = 1
                             if p == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    e_pos = i[indx:]
+                                    indx = i.index(':') + 8
+                                    e_pos = i[indx:].rstrip('\n')
                                     p = 0
                                     o = 1
                             if n == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    e_UT = i[indx:]
+                                    indx = i.index(':') + 8
+                                    e_UT = i[indx:].rstrip('\n')
                                     n = 0
                                     p = 1
                             if m == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    m_jtime = i[indx:]
+                                    indx = i.index(':') + 8
+                                    m_jtime = i[indx:].rstrip('\n')
                                     m = 0
                                     n = 1
                             if l == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    m_pos = i[indx:]
+                                    indx = i.index(':') + 8
+                                    m_pos = i[indx:].rstrip('\n')
                                     l = 0
                                     m = 1
                             if k == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    m_UT = i[indx:]
+                                    indx = i.index(':') + 8
+                                    m_UT = i[indx:].rstrip('\n')
                                     l = 1
                                     k = 0
                             if f == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') + 2
-                                    b_jtime = i[indx:]
+                                    indx = i.index(':') + 8
+                                    b_jtime = i[indx:].rstrip('\n')
                                     f = 0
                                     k = 1
                             if e == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') +2
-                                    b_pos = i[indx:]
+                                    indx = i.index(':') +8
+                                    b_pos = i[indx:].rstrip('\n')
                                     e = 0
                                     #Find beginning sky position, reset e
                                     f = 1
                             if d == 1:
                                 if i.find('::DATA:')==0:
-                                    indx = i.index(':') +2
-                                    b_UT = i[indx:]
+                                    indx = i.index(':') +8
+                                    b_UT = i[indx:].rstrip('\n')
                                     d = 0
                                     #Find beginning UT time, reset d
                                     e = 1
                             if c == 1:
                                 if i.find('::DATA:' )==0:
-                                    indx = i.index(':') +2
-                                    const = i[indx:]
+                                    indx = i.index(':') +8
+                                    const = i[indx:].rstrip('\n')
                                     c=0
                                     #Find Constilation, reset c
                                     d=1
                             if u == 1:
-                                indx = i.index(':') +2
-                                name = i[indx:]
+                                indx = i.index(':') +8
+                                name = i[indx:].rstrip('\n')
                                 u = 0
                                 #Record Name
                                 c = 1
                             if uu == 1:
                                 if testword in i:
-                                    indx = i.index('f') +5
-                                    url = i[indx:]
+                                    indx = i.index('f') +4
+                                    url = i[indx:].rstrip('\n')
                                     u = 1
-                                    print url
                                     uu = 0
                                 else:
                                     uu = 0
@@ -317,7 +317,7 @@ def ExoplanetHolder(htmldatapath,date):
                                 exocsv.write(DEP+',')
                                 DEP = None
                             if ttime:
-                                exo.write('\t\tttime: ' + ttime + '\n')
+                                exo.write('\ttran-time: ' + ttime + '\n')
                                 exocsv.write(ttime+',')
                                 ttime = None
                             if RA:
@@ -334,7 +334,7 @@ def ExoplanetHolder(htmldatapath,date):
                 pass
             pass
         pass
-class DownloadHTMLtext:
+class DownloadHTMLtext: #####
     def __init__(self,html,log):
         self.url = html
         self.log = log
@@ -400,13 +400,14 @@ def globvars():
     else:
         #Find Julian Date
         jdate =  utc2jd(CurrentUTC())
-    now = UTC2str(CurrentUTC())
-    excFilePath = inspect.getfile(inspect.currentframe()) #Finds current file path including file name.
-    return now, excFilePath, Long, Lat, jdate
+    return Long, Lat, jdate
   
 #Get Global Variables
-globvars()
-
+gvar = globvars()
+Long = gvar[0]
+Lat = gvar[1]
+jdate = gvar[2]
+excFilePath = inspect.getfile(inspect.currentframe()) #Finds current file path including file name.
 #Make Temp File Directory
 testtmpdir = excFilePath.replace("Parse.py", "") + 'TMP/'
 if not os.path.exists(testtmpdir):
@@ -416,28 +417,30 @@ if not os.path.exists(testtmpdir):
 path = excFilePath.replace("Parse.py", "") + 'Output.log' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
 filetmp = open(path,'w')
 log = deleteContent(filetmp)
-LogStartStr = 'Exoplanet HTML Database Parse Ver 0\nScript by Joe Renaud\nLog file created on (UTC): ' + now + '\n\n' + '1-Begin...\n'
+LogStartStr = 'Exoplanet HTML Database Parse Ver 0\nScript by Joe Renaud\nLog file created on (jdate): ' + str(jdate) + '\n\n' + '1-Begin...\n'
 log.write(LogStartStr)
 filetmp = None
 path = None
 #Open HTML in question
-HtmlURL = 'http://var2.astro.cz/ETD/predictions.php?JDmidnight=' + str(jdate) + '&delka=' + str(Long) + '&sirka=' + str(Lat)
-kstr = DownloadHTMLtext(HtmlURL,log).string()
-#Make temp files for storing html information in TMP folder
-
-path = excFilePath.replace("Parse.py", "") + 'TMP/htmldata.tmp'
-with open(path,'w') as filetmp:
-    with deleteContent(filetmp) as htmldata:
-    # instantiate the parser and fed it some HTML
-        parser = MyHTMLParser()
-        parser.feed(kstr)
+for ikn in range(20):
+    jdatenew = jdate + ikn
+    #Open HTML in question
+    HtmlURL = 'http://var2.astro.cz/ETD/predictions.php?JDmidnight=' + str(jdatenew) + '&delka=' + str(Long) + '&sirka=' + str(Lat)
+    kstr = None    
+    kstr = DownloadHTMLtext(HtmlURL,log).string()
+    path = excFilePath.replace("Parse.py", "") + 'TMP/htmldata.tmp'
+    with open(path,'w') as filetmp:
+        with deleteContent(filetmp) as htmldata:
+            # instantiate the parser and fed it some HTML
+            parser = MyHTMLParser()
+            parser.feed(kstr)
+        pass
     pass
-pass
-log.write('5-Finished parsing the html document\n')
-path = excFilePath.replace("Parse.py", "") + 'TMP/htmldata.tmp'
+    log.write('5-Day: ' + str(ikn) + ' - Finished parsing the html document\n')
+    ExoplanetHolder(path,str(jdate+ikn))
+    log.write('6-Day: ' + str(ikn) + ' - Exoplanetholder ran\n')
+log.close()
 #linkfinder(path)
 #Debuging
 #os.remove(excFilePath.replace("Parse.py", "") + 'html1.tmp') #Uncomment during debug.
 #Close open files.
-ExoplanetHolder(path,now)
-log.close()
