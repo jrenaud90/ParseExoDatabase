@@ -28,7 +28,7 @@ log.write('2-HTML URL to open: ' + HtmlURL + '\n')
 filetmp = open(path,'w')
 html1 = deleteContent(filetmp)
 for line in HtmlData:
-    html1.write(line+'\n')
+    html1.write(line)
 log.write('3-Wrote HTML to : ' + path + '\n')
 path = None
 filetmp = None
