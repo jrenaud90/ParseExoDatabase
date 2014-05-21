@@ -93,7 +93,7 @@ def linkfinder(path):
 
 # Find links in the file
         log.write('7-Looking for links...\n')
-        path = excFilePath.replace("Parse.py", "") + 'links.tmp'
+        path = excFilePath.replace("Parse.py", "") + 'TMP/links.tmp'
         with open(path,'w') as filetmp:
             with deleteContent(filetmp) as linkfile:
                 x = htmldata.readlines()
@@ -115,6 +115,63 @@ def linkfinder(path):
             pass
         pass
     pass
+def ExoplanetHolder(htmldata):
+    path = excFilePath.replace("Parse.py", "") + 'TMP/exoplanets.tmp' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
+    path2 = excFilePath.replace("Parse.py", "") + 'Exoplanets.csv' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
+    with open(path2,'w') as filetmp2:
+        with deleteContent(filetmp2) as exocsv:
+            with open(path,'w') as filetmp:
+                with deleteContent(filetmp) as exo:
+                    x = htmldata.readlines()
+                    cnt = 1
+                    u = 0
+                    c = 0
+                    d = 0
+                    for i in x:
+                        if d == 1:
+                            if i.find('::DATA:'):
+                                indx = i.index(':') +2
+                                b_UT = i[indx:]
+                                d = 0
+                                #Find beginning UT time, reset d
+                                e = 1
+                        if c == 1:
+                            if i.find('::DATA:' ):
+                                indx = i.index(':') +2
+                                const = i[indx:]
+                                c=0
+                                #Find Constilation, reset c
+                                d=1
+                        if u == 1:
+                            indx = i.index(':') +2
+                            name = i[indx:]
+                            u = 0
+                            #Record Name
+                            c = 1
+                        if i.find('::DATA:' ):
+                            if i.find('href = predict_detail.php?STARNAME' ):
+                                indx = i.index('=') +2
+                                url = i[indx:]
+                                u = 1
+                                #Record URL and mark next line as name line.
+                        if url:
+                            exo.write('Exoplanet ' + str(cnt) + ': \n')
+                            exo.write('\tURL: ' + url + '\n')
+                            exocsv.write(url+',')
+                            url = None
+                        if name:
+                            exo.write('\tName: ' + name + '\n')
+                            exocsv.write(name+',')
+                            name = None
+                        if const:
+                            exo.write('\tConstellation: ' + const + '\n')
+                            exocsv.write(const+',')
+                            const = None
+                            exo.write('\t-TRANSIT START-\n')
+                            
+                
+        pass
+    pass
 class DownloadHTMLtext:
     def __init__(self,html,log):
         self.url = html
@@ -123,7 +180,7 @@ class DownloadHTMLtext:
         #Open HTML in question
         HtmlData = urllib2.urlopen(self.url)
 ##
-        path = excFilePath.replace("Parse.py", "") + 'html1.tmp'
+        path = excFilePath.replace("Parse.py", "") + 'TMP/html1.tmp'
         self.log.write('2-HTML URL to open: ' + HtmlURL + '\n')
         with open(path,'w') as filetmp:
             with deleteContent(filetmp) as html1:
@@ -145,7 +202,7 @@ class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
         if len(data) > 1:
             htmldata.write('::DATA: ' + data + '\n')
-            log.write('\t-HTML Data info Written to htmldata.tmp\n')
+            log.write('\t-HTML Data info Written to TMP/htmldata.tmp\n')
     def handle_starttag(self, tag, attrs):
         htmldata.write('Item :\n')
         htmldata.write('::TAG: ' + tag + '\n')
@@ -156,7 +213,7 @@ class MyHTMLParser(HTMLParser):
                 st1 = attr[0]
                 st2 = attr[1]
                 htmldata.write('\t' + st1 + ' = ' + st2 + '\n')
-        log.write('\t-HTML Tag info Written to htmldata.tmp\n')
+        log.write('\t-HTML Tag info Written to TMP/htmldata.tmp\n')
 #    def handle_starttag(self, tag, attrs):
 #        print "Encountered a start tag:", tag
 #    def handle_endtag(self, tag):
@@ -184,8 +241,15 @@ def globvars():
     now = UTC2str(CurrentUTC())
     excFilePath = inspect.getfile(inspect.currentframe()) #Finds current file path including file name.
     return now, excFilePath, Long, Lat, jdate
-    
+  
+#Get Global Variables
 globvars()
+
+#Make Temp File Directory
+testtmpdir = excFilePath.replace("Parse.py", "") + 'TMP/'
+if not os.path.exists(testtmpdir):
+    os.makedirs(testtmpdir)
+    
 #Open and use log file
 path = excFilePath.replace("Parse.py", "") + 'Output.log' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
 filetmp = open(path,'w')
@@ -194,26 +258,24 @@ LogStartStr = 'Exoplanet HTML Database Parse Ver 0\nScript by Joe Renaud\nLog fi
 log.write(LogStartStr)
 filetmp = None
 path = None
-
 #Open HTML in question
 HtmlURL = 'http://var2.astro.cz/ETD/predictions.php?JDmidnight=' + str(jdate) + '&delka=' + str(Long) + '&sirka=' + str(Lat)
 kstr = DownloadHTMLtext(HtmlURL,log).string()
-#Make temp files for storing html information
-path = excFilePath.replace("Parse.py", "") + 'htmldata.tmp'
+#Make temp files for storing html information in TMP folder
+
+path = excFilePath.replace("Parse.py", "") + 'TMP/htmldata.tmp'
 with open(path,'w') as filetmp:
     with deleteContent(filetmp) as htmldata:
-# instantiate the parser and fed it some HTML
+    # instantiate the parser and fed it some HTML
         parser = MyHTMLParser()
         parser.feed(kstr)
-        pass
     pass
+pass
 log.write('5-Finished parsing the html document\n')
-path = excFilePath.replace("Parse.py", "") + 'htmldata.tmp'
+path = excFilePath.replace("Parse.py", "") + 'TMP/htmldata.tmp'
 linkfinder(path)
-
-
 #Debuging
 #os.remove(excFilePath.replace("Parse.py", "") + 'html1.tmp') #Uncomment during debug.
-
 #Close open files.
+
 log.close
