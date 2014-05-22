@@ -1,6 +1,6 @@
 #Imports
 from HTMLParser import HTMLParser
-import os,inspect,urllib2,datetime
+import os,inspect,urllib2,datetime,shutil
 
 def date_to_julian_day(my_date):
     """Returns the Julian day number of a date."""
@@ -123,13 +123,13 @@ def ExoplanetHolder(htmldatapath,date):
         m_UT = None;m_pos=None;m_jtime=None;D=None;V=None;DEP=None
         e_UT = None;e_pos=None;e_jtime=None;ttime=None;RA=None;DE=None
         testword = 'predict_detail'
-        with open(path2,'w') as filetmp2:
+        with open(path2,'a') as filetmp2:
             with filetmp2 as exocsv:
-                with open(path,'w') as filetmp:
-                    with deleteContent(filetmp) as exo:
+                with open(path,'a') as filetmp:
+                    with filetmp as exo:
                         exo.write('Date (UTC): ' + date + '\n')
                         exo.write('- - - - - - - - - -\n')
-                        exocsv.write(date + ',')
+                        exocsv.write(date + '\n')
                         x = htmldata.readlines()
                         cnt = 1
                         u = 0;c = 0;d = 0;f = 0;e = 0;k = 0;l=0;m=0;n=0;p=0;o=0;r=0;t=0;v=0
@@ -334,25 +334,21 @@ def ExoplanetHolder(htmldatapath,date):
                 pass
             pass
         pass
-class DownloadHTMLtext: #####
-    def __init__(self,html,log):
-        self.url = html
-        self.log = log
-    def string(self):
-        #Open HTML in question
-        HtmlData = urllib2.urlopen(self.url)
-##
-        path = excFilePath.replace("Parse.py", "") + 'TMP/html1.tmp'
-        self.log.write('2-HTML URL to open: ' + HtmlURL + '\n')
+    os.remove(htmldatapath)
+        
+def DownloadHTMLtext(html,log,instance):
+        HtmlData = urllib2.urlopen(html)
+        path = excFilePath.replace("Parse.py", "") + 'TMP/html'+str(instance)+'.tmp'
+        log.write('2-HTML URL to open: ' + HtmlURL + '\n')
         with open(path,'w') as filetmp:
             with deleteContent(filetmp) as html1:
                 for line in HtmlData:
                     html1.write(line)
-                    self.log.write('3-Wrote HTML to : ' + path + '\n')
                 pass
             pass
+        html1 = None
         with open(path,'r') as html1:
-            self.log.write('4-Reading ' + path + 'as var: html1')
+            log.write('4-Reading ' + path + 'as var: html1')
             kstr = ''
             for line in html1:
                 kstr = kstr + line #Make large string of the html file
@@ -364,9 +360,8 @@ class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
         if len(data) > 1:
             htmldata.write('::DATA: ' + data + '\n')
-            log.write('\t-HTML Data info Written to TMP/htmldata.tmp\n')
     def handle_starttag(self, tag, attrs):
-        htmldata.write('Item :\n')
+        htmldata.write('Item: \n')
         htmldata.write('::TAG: ' + tag + '\n')
         for attr in attrs:
             if len(attr)<2:
@@ -375,7 +370,6 @@ class MyHTMLParser(HTMLParser):
                 st1 = attr[0]
                 st2 = attr[1]
                 htmldata.write('\t' + st1 + ' = ' + st2 + '\n')
-        log.write('\t-HTML Tag info Written to TMP/htmldata.tmp\n')
 #    def handle_starttag(self, tag, attrs):
 #        print "Encountered a start tag:", tag
 #    def handle_endtag(self, tag):
@@ -408,26 +402,29 @@ Long = gvar[0]
 Lat = gvar[1]
 jdate = gvar[2]
 excFilePath = inspect.getfile(inspect.currentframe()) #Finds current file path including file name.
+
 #Make Temp File Directory
 testtmpdir = excFilePath.replace("Parse.py", "") + 'TMP/'
 if not os.path.exists(testtmpdir):
     os.makedirs(testtmpdir)
-    
+#Delete old files
+os.remove(excFilePath.replace("Parse.py", "") + 'Exoplanets.csv')
+os.remove(excFilePath.replace("Parse.py", "") + 'Output.log')
 #Open and use log file
 path = excFilePath.replace("Parse.py", "") + 'Output.log' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
 filetmp = open(path,'w')
 log = deleteContent(filetmp)
 LogStartStr = 'Exoplanet HTML Database Parse Ver 0\nScript by Joe Renaud\nLog file created on (jdate): ' + str(jdate) + '\n\n' + '1-Begin...\n'
 log.write(LogStartStr)
-filetmp = None
-path = None
+filetmp = None;path = None
+
 #Open HTML in question
 for ikn in range(20):
     jdatenew = jdate + ikn
     #Open HTML in question
     HtmlURL = 'http://var2.astro.cz/ETD/predictions.php?JDmidnight=' + str(jdatenew) + '&delka=' + str(Long) + '&sirka=' + str(Lat)
-    kstr = None    
-    kstr = DownloadHTMLtext(HtmlURL,log).string()
+    kstr = None
+    kstr = DownloadHTMLtext(HtmlURL,log,ikn)
     path = excFilePath.replace("Parse.py", "") + 'TMP/htmldata.tmp'
     with open(path,'w') as filetmp:
         with deleteContent(filetmp) as htmldata:
@@ -439,8 +436,9 @@ for ikn in range(20):
     log.write('5-Day: ' + str(ikn) + ' - Finished parsing the html document\n')
     ExoplanetHolder(path,str(jdate+ikn))
     log.write('6-Day: ' + str(ikn) + ' - Exoplanetholder ran\n')
+    
+    
 log.close()
-#linkfinder(path)
-#Debuging
-#os.remove(excFilePath.replace("Parse.py", "") + 'html1.tmp') #Uncomment during debug.
-#Close open files.
+#Debuging, please comment out the following to see temp files
+
+shutil.rmtree(excFilePath.replace("Parse.py", "") + 'TMP/')
