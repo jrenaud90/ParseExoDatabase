@@ -1,65 +1,95 @@
 Exoplanet HTML Database Parse Ver 0
 Script by Joe Renaud
-Log file created on (jdate): 2456799.51247
+Log file created on (jdate): 2456802.60242
 
 1-Begin...
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456799.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456802.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html0.tmpas var: html15-Day: 0 - Finished parsing the html document
 6-Day: 0 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456800.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456803.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html1.tmpas var: html15-Day: 1 - Finished parsing the html document
 6-Day: 1 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456801.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456804.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html2.tmpas var: html15-Day: 2 - Finished parsing the html document
 6-Day: 2 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456802.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456805.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html3.tmpas var: html15-Day: 3 - Finished parsing the html document
 6-Day: 3 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456803.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456806.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html4.tmpas var: html15-Day: 4 - Finished parsing the html document
 6-Day: 4 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456804.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456807.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html5.tmpas var: html15-Day: 5 - Finished parsing the html document
 6-Day: 5 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456805.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456808.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html6.tmpas var: html15-Day: 6 - Finished parsing the html document
 6-Day: 6 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456806.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456809.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html7.tmpas var: html15-Day: 7 - Finished parsing the html document
 6-Day: 7 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456807.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456810.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html8.tmpas var: html15-Day: 8 - Finished parsing the html document
 6-Day: 8 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456808.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456811.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html9.tmpas var: html15-Day: 9 - Finished parsing the html document
 6-Day: 9 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456809.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456812.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html10.tmpas var: html15-Day: 10 - Finished parsing the html document
 6-Day: 10 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456810.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456813.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html11.tmpas var: html15-Day: 11 - Finished parsing the html document
 6-Day: 11 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456811.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456814.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html12.tmpas var: html15-Day: 12 - Finished parsing the html document
 6-Day: 12 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456812.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456815.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html13.tmpas var: html15-Day: 13 - Finished parsing the html document
 6-Day: 13 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456813.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456816.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html14.tmpas var: html15-Day: 14 - Finished parsing the html document
 6-Day: 14 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456814.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456817.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html15.tmpas var: html15-Day: 15 - Finished parsing the html document
 6-Day: 15 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456815.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456818.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html16.tmpas var: html15-Day: 16 - Finished parsing the html document
 6-Day: 16 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456816.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456819.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html17.tmpas var: html15-Day: 17 - Finished parsing the html document
 6-Day: 17 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456817.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456820.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html18.tmpas var: html15-Day: 18 - Finished parsing the html document
 6-Day: 18 - Exoplanetholder ran
-2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456818.51247&delka=38.8526&sirka=-77.3044
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456821.60242&delka=38.8526&sirka=-77.3044
 4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html19.tmpas var: html15-Day: 19 - Finished parsing the html document
 6-Day: 19 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456822.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html20.tmpas var: html15-Day: 20 - Finished parsing the html document
+6-Day: 20 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456823.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html21.tmpas var: html15-Day: 21 - Finished parsing the html document
+6-Day: 21 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456824.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html22.tmpas var: html15-Day: 22 - Finished parsing the html document
+6-Day: 22 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456825.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html23.tmpas var: html15-Day: 23 - Finished parsing the html document
+6-Day: 23 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456826.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html24.tmpas var: html15-Day: 24 - Finished parsing the html document
+6-Day: 24 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456827.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html25.tmpas var: html15-Day: 25 - Finished parsing the html document
+6-Day: 25 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456828.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html26.tmpas var: html15-Day: 26 - Finished parsing the html document
+6-Day: 26 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456829.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html27.tmpas var: html15-Day: 27 - Finished parsing the html document
+6-Day: 27 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456830.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html28.tmpas var: html15-Day: 28 - Finished parsing the html document
+6-Day: 28 - Exoplanetholder ran
+2-HTML URL to open: http://var2.astro.cz/ETD/predictions.php?JDmidnight=2456831.60242&delka=38.8526&sirka=-77.3044
+4-Reading C:/Users/jrenaud/Desktop/Joe Docs/Documents/Projects & Research/Exoplanet/Exoplanet Group GMU/ParseExoDatabase/TMP/html29.tmpas var: html15-Day: 29 - Finished parsing the html document
+6-Day: 29 - Exoplanetholder ran

@@ -129,7 +129,7 @@ def ExoplanetHolder(htmldatapath,date):
                     with filetmp as exo:
                         exo.write('Date (UTC): ' + date + '\n')
                         exo.write('- - - - - - - - - -\n')
-                        exocsv.write(date + '\n')
+                        #exocsv.write(date + '\n')
                         x = htmldata.readlines()
                         cnt = 1
                         u = 0;c = 0;d = 0;f = 0;e = 0;k = 0;l=0;m=0;n=0;p=0;o=0;r=0;t=0;v=0
@@ -275,8 +275,8 @@ def ExoplanetHolder(htmldatapath,date):
                                 exocsv.write(b_pos+',')
                                 b_pos = None
                             if b_jtime:
-                                exo.write('\t\tJ-Time: ' + b_jtime + '\n')
-                                exocsv.write(b_jtime+',')
+                                exo.write('\t\tJ-Time: 24' + b_jtime + '\n')
+                                exocsv.write('24'+b_jtime+',')
                                 b_jtime = None
                             if m_UT:
                                 exo.write('\t-TRANSIT MID-\n')
@@ -288,8 +288,8 @@ def ExoplanetHolder(htmldatapath,date):
                                 exocsv.write(m_pos+',')
                                 m_pos = None
                             if m_jtime:
-                                exo.write('\t\tJ-Time: ' + m_jtime + '\n')
-                                exocsv.write(m_jtime+',')
+                                exo.write('\t\tJ-Time: 24' + m_jtime + '\n')
+                                exocsv.write('24'+m_jtime+',')
                                 m_jtime = None
                             if e_UT:
                                 exo.write('\t-TRANSIT END-\n')
@@ -301,8 +301,8 @@ def ExoplanetHolder(htmldatapath,date):
                                 exocsv.write(e_pos+',')
                                 e_pos = None
                             if e_jtime:
-                                exo.write('\t\tJ-Time: ' + e_jtime + '\n')
-                                exocsv.write(e_jtime+',')
+                                exo.write('\t\tJ-Time: 24' + e_jtime + '\n')
+                                exocsv.write('24'+e_jtime+',')
                                 e_jtime = None
                             if D:
                                 exo.write('\tD: ' + D + '\n')
@@ -339,7 +339,7 @@ def ExoplanetHolder(htmldatapath,date):
 def DownloadHTMLtext(html,log,instance):
         HtmlData = urllib2.urlopen(html)
         path = excFilePath.replace("Parse.py", "") + 'TMP/html'+str(instance)+'.tmp'
-        log.write('2-HTML URL to open: ' + HtmlURL + '\n')
+        log.write('HTML URL to open: ' + HtmlURL + '\n')
         with open(path,'w') as filetmp:
             with deleteContent(filetmp) as html1:
                 for line in HtmlData:
@@ -348,7 +348,7 @@ def DownloadHTMLtext(html,log,instance):
             pass
         html1 = None
         with open(path,'r') as html1:
-            log.write('4-Reading ' + path + 'as var: html1')
+            log.write('Reading ' + path + 'as var: html1')
             kstr = ''
             for line in html1:
                 kstr = kstr + line #Make large string of the html file
@@ -370,12 +370,6 @@ class MyHTMLParser(HTMLParser):
                 st1 = attr[0]
                 st2 = attr[1]
                 htmldata.write('\t' + st1 + ' = ' + st2 + '\n')
-#    def handle_starttag(self, tag, attrs):
-#        print "Encountered a start tag:", tag
-#    def handle_endtag(self, tag):
-#        print "Encountered an end tag :", tag
-#    def handle_data(self, data):
-#        print "Encountered some data  :", data
 
 
 #Global Vars Function
@@ -414,12 +408,12 @@ os.remove(excFilePath.replace("Parse.py", "") + 'Output.log')
 path = excFilePath.replace("Parse.py", "") + 'Output.log' #Gets rid of current file name and replaces it with log name, change parse.py to current file name.
 filetmp = open(path,'w')
 log = deleteContent(filetmp)
-LogStartStr = 'Exoplanet HTML Database Parse Ver 0\nScript by Joe Renaud\nLog file created on (jdate): ' + str(jdate) + '\n\n' + '1-Begin...\n'
+LogStartStr = 'Exoplanet HTML Database Parse Ver 1.1\nScript by Joe Renaud\nLog file created on (jdate): ' + str(jdate) + '\n\n' + 'Begin...\n'
 log.write(LogStartStr)
 filetmp = None;path = None
 
 #Open HTML in question
-for ikn in range(20):
+for ikn in range(30):
     jdatenew = jdate + ikn
     #Open HTML in question
     HtmlURL = 'http://var2.astro.cz/ETD/predictions.php?JDmidnight=' + str(jdatenew) + '&delka=' + str(Long) + '&sirka=' + str(Lat)
@@ -431,11 +425,11 @@ for ikn in range(20):
             # instantiate the parser and fed it some HTML
             parser = MyHTMLParser()
             parser.feed(kstr)
+            pass
         pass
-    pass
-    log.write('5-Day: ' + str(ikn) + ' - Finished parsing the html document\n')
+    log.write('Day: ' + str(ikn) + ' - Finished parsing the html document\n')
     ExoplanetHolder(path,str(jdate+ikn))
-    log.write('6-Day: ' + str(ikn) + ' - Exoplanetholder ran\n')
+    log.write('Day: ' + str(ikn) + ' - Exoplanetholder ran\n')
     
     
 log.close()
